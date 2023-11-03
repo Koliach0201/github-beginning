@@ -194,7 +194,7 @@ int main()
 // Программа Score rater
 // Демонстрирует работу с инструкцией if
 
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
@@ -229,9 +229,16 @@ int main()
         }
     }
     return 0;
-}
+}*/
 
 // Программа Score Rater 2.0
 // Демонстрирует работу с условием else
 
-//#include <iostream>
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+
+}

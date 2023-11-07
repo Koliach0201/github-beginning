@@ -81,7 +81,7 @@ int main()
 }*/
 
 
-/*//Утраченнный клад
+//Утраченнный клад
 //Персонализированная приключенческая игра
 #include <iostream>
 #include <string>
@@ -100,31 +100,31 @@ int main()
         
     // получаю информацию
     cout << "Добро пожаловать в утраченный клад!\n\n";
-    cout << "Please enter the following for your personalized adventure\n";
-    cout << "Enter а number: ";
+    cout << "Пожалуйста, заполните следующее для вашего персонализированного приключения\n";
+    cout << "Введите количество искателей: ";
     cin >> adventurers;
-    cout << "Enter а number. smaller than the first: ";
+    cout << "Введите количество убитых (меньше первого): ";
     cin >> killed;
     survivors = adventurers - killed;
-    cout << "Enter your last name: ";
+    cout << "Введите имя пользователя: ";
     cin >> leader;
     // сюжет
-    cout << "\nA brave group of" << adventurers << " set out on а quest ";
-    cout << "-- in search of the lost treasure of the Ancient Dwarves. ";
-    cout << "The group was led Ьу that legendary rogue. " << leader << ". \n";
-    cout << "\nAl ong the way. а band of maraudi ng ogres ambushed the party. ";
-    cout << "All fought bravely under the command of " << leader;
-    cout << ". and the ogres were defeated. but at а cost. ";
-    cout << "Of the adventurers. " << killed << " were vanqui shed. ";
-    cout << "leaving just " << survivors << " in the group.\n";
-    cout << "\nThe party was about to give up all hope. ";
-    cout << "But while laying the deceased to rest. ";
-    cout << "they stumbled upon the buried fortune. ";
-    cout << "So the adventurers split " << GOLD_PIECES << " gold pieces.";
-    cout << leader << " held on to the extra " << (GOLD_PIECES % survivors);
-    cout << " pieces to keep things fair of course.\n";
+    cout << "\nОтважная группа из " << adventurers << " отправилась на поиски ";
+    cout << "-- в поисках затерянного сокровища Древних Гномов. ";
+    cout << "Группу возглавлял тот самый легендарный негодяй. " << leader << ". \n";
+    cout << "\nПо пути, банда мародерствующих огров устроила на группу засаду. ";
+    cout << "Все храбро сражались под командованием " << leader;
+    cout << ". И огры были побеждены, но ценой жизни некоторых искателей. ";
+    cout << "Из искателей " << killed << " были повержены. ";
+    cout << "Остались только " << survivors << " в группе.\n";
+    cout << "\nГруппа искателей была готова оставить всякую надежду. ";
+    cout << "Но когда хоронили умерших. ";
+    cout << "Они наткнулись на закопанное состояние. ";
+    cout << "Итак, искатели приключений поделили " << GOLD_PIECES << " золотых кусков.";
+    cout << leader << " получил остаток " << (GOLD_PIECES % survivors);
+    cout << " чтобы все было честно.\n";
     return 0;
-}*/
+}
 
 /*Упражнения1.Составьте список из шести допустимых имен переменных, причем три имени
 должны быть качественными, а три - некачественными.Объясните, почему
@@ -231,7 +231,7 @@ int main()
     return 0;
 }*/
 
-// Программа Score Rater 2.0
+/*// Программа Score Rater 2.0
 // Демонстрирует работу с условием else
 
 #include <iostream>
@@ -241,4 +241,4 @@ using namespace std;
 int main() 
 {
 
-}
+}*/
